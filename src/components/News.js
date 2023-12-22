@@ -41,7 +41,7 @@ const News =(props)=> {
   useEffect(() => {
     document.title = `${capitalize(props.category)} - FlashHive`;
     updateNews();
-},[]);
+},);
 
   
   
